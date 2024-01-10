@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>No Boundries Let's Fly</title>
+    <!-- <link href="landingpage.css" rel="stylesheet" type="text/css"/> -->
+    <link data-default-icon="https://companieslogo.com/img/orig/MMYT-ca98a9f1.png?t=1683788455"
+    rel="icon" size="192x192" href="https://companieslogo.com/img/orig/MMYT-ca98a9f1.png?t=1683788455"/>
+    <style>
+    *{
+        padding: 0%;
+        margin:0;
+        box-sizing: border-box;
+    }
+    header{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ,url("https://livefromalounge.com/wp-content/uploads/2020/06/maldives-666122_1280.jpg");
+       
+    }
+    nav{
+        
+       width:100%;
+       height: 15hv;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        text-align: center;
+        padding:3% 5%;
+        
+    
+}
+    
+     .logo img{ 
+        float: left;
+        height: auto;
+    width:190px;
+    
+    
+    
+}
+        
+        
+ 
+.menu a{
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    font-size: 20px;
+    position: relative;
+   
+}
+.menu a::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+
+
+}
+.menu a:hover::before{
+    width: 90%;
+}
+.register a{
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    font-size: 20px;
+    background: indianred;
+    border-radius: 5px;
+   
+}
+.ht{
+    max-width: 650px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+
+
+}
+.ht span{
+    letter-spacing: 5px;
+
+}
+.ht h1{
+    font-size: 3.5em;
+}
+.ht a{
+    text-decoration: none;
+    background-color: indianred;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+
+}
+.logo{
+    width: 10px;
+    height: 10px;
+}
+
+</style>
+    
+</head>
+<body>
+    
+    
+    <header>
+        <nav>
+            <div class="logo">
+              <img src="https://uaenews247.files.wordpress.com/2023/03/makemytrip-logo.png"/>
+
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Hill Stations</a>
+                <a href="#">Best offer's</a>
+                <a href="#">Our Sites</a>
+                <a href="#">Contact</a>
+            </div>
+            
+       <div class="register">
+        <a href="#">Register</a>
+       </div>
+        </nav>
+        <main>
+        <section class="ht">
+            <span>Living The Dream</span>
+            <h1>Welcome To Maldives</h1>
+            <br>
+            <a href="#" >Book Your Trip</a>
+        </section>
+        </main>
+    </header>
+    
+    
+</body>
+</html>
